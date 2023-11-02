@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script> -->
+    <style>
+      * {
+        background-color: #f5410b;
+      }
+      /* .home {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url('images/i.png') no-repeat; 
+         background: url('images/Background.png') no-repeat;
+        background-size: cover;
+        background-position: center;
+        display: flex;
+
+        justify-content: space-between;
+        align-items: center;
+        padding: 70px 10% 0;
+      }
+
+      .home-content {
+        max-width: 600px;
+      }
+
+      .home-content h3 {
+        font-size: 32px;
+        font-weight: 700;
+        opacity: 0;
+        animation: slideBottom 1s ease forwards;
+        animation-delay: 0.7s;
+      }
+
+      .home-content h3 span {
+        color: greenyellow;
+      }
+
+      .home-content h1 {
+        font-size: 56px;
+        font-weight: 700;
+        margin: -3px 0;
+        opacity: 0;
+        animation: slideRight 1s ease forwards;
+        animation-delay: 1s;
+      }
+
+      .home-content p {
+        font-size: 20px;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: 1s;
+      }
+
+      .home-sci a {
+        display: inline-flex;
+        justify-content: center;
+        align-items: center;
+        width: 40px;
+        height: 40px;
+        background: transparent;
+        border: 2px solid greenyellow;
+        border-radius: 50%;
+        font-size: 20px;
+        color: greenyellow;
+        text-decoration: none;
+        opacity: 0;
+        animation: slideLeft 1s ease forwards;
+        animation-delay: 0.2s;
+         Use a specific numeric value here 
+        margin: 30px 15px 30px 0;
+      }
+
+      .home-sci a :hover {
+        background: greenyellow;
+        color: #081b29;
+        box-shadow: 0 0 20px greenyellow;
+      }
+
+      .btn-box {
+        display: inline-block;
+        padding: 12px 28px;
+        margin-bottom: 10%;
+        background: greenyellow;
+        border-radius: 40px;
+        font-size: 16px;
+        color: #081b29;
+        letter-spacing: 1px;
+        text-decoration: none;
+        font-weight: 600;
+        opacity: 0;
+        animation: slideTop 1s ease forwards;
+        animation-delay: 2s;
+        box-shadow: 0 0 5px greenyellow, 0 0 25px greenyellow;
+      }
+
+      .btn-box:hover {
+        box-shadow: 0 0 5px greenyellow, 0 0 25px greenyellow,
+          0 0 50px greenyellow, 0 0 100px greenyellow, 0 0 200px greenyellow;
+      } 
+
+       #gks{
+        height: 333px;
+        width: 333px;
+    border: 5px solid black;
+    border-color: green pink yellow red;
+    border-radius: 360px 360px 360px 360px;
+    position: relative;
+    left: 950px;
+    top: 107px;
+      }  */
+      #gks{
+    border: 5px solid black;
+    border-color: green pink yellow red;
+    border-radius: 258px 258px 258px 258px;
+}
+      .parent{
+        display: flex ;
+        position: fixed;
+       
+      }
+      .child1{
+         
+        flex-direction: column;
+        position: relative;
+        left: 15px;
+      }
+      .child2{
+        /* display: flexbox; */
+        flex-direction: column;
+        position: relative;
+        right: 25px;
+      }
+       
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="child1">
+        <section class="home" id="home">
+          <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>Gaurav Kumar</h1>
+            <h3>And I'm a <span class="text"></span></h3>
+            <p>
+              I am a web designer with over six months of experience.
+              <br />
+            </p>
+            <div class="home-sci">
+              <a
+                href="https://www.facebook.com/harishchandra.saroj.5876"
+                style="--i: 1"
+                ><i class="bx bxl-facebook"></i
+              ></a>
+              <a href="https://www.instagram.com/anujknitsultanpur/" style="--i: 2"
+                ><i class="bx bxl-instagram"></i
+              ></a>
+              <a href="https://web.whatsapp.com/" style="--i: 3"
+                ><i class="bx bxl-whatsapp"></i
+              ></a>
+            </div>
+            <a href="#" class="btn-box">More About Me</a><br />
+          </div>
+    
+          <span class="home-imgHover"> </span>
+        </section>
+      </div>
+      <div class="child2">
+        <img src="gaurav1.JPG" alt="" id="gks">
+      </div>
+    </div>
+  </body>
+</html>
